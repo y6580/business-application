@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/business-application.iml" filepath="$PROJECT_DIR$/.idea/business-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-application-kjar/business-application-kjar.iml" filepath="$PROJECT_DIR$/business-application-kjar/business-application-kjar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-application-model/business-application-model.iml" filepath="$PROJECT_DIR$/business-application-model/business-application-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/business-application-service/business-application-service.iml" filepath="$PROJECT_DIR$/business-application-service/business-application-service.iml" />
+    </modules>
+  </component>
+</project>

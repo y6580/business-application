@@ -1,0 +1,122 @@
+Running with user input: "clean install"
+Running maven build on available project
+===============================================================================
+business-application-model
+===============================================================================
+===============================================================================
+business-application-kjar
+===============================================================================
+===============================================================================
+business-application-service
+===============================================================================
+"Launching the application in development mode - requires connection to controller (workbench)"
+   _ ______ ______ ___  ___  ______              _                            ___                 _  _              _    _
+  (_)| ___ \| ___ \|  \/  |  | ___ \            (_)                          / _ \               | |(_)            | |  (_)
+   _ | |_/ /| |_/ /| .  . |  | |_/ / _   _  ___  _  _ __    ___  ___  ___   / /_\ \ _ __   _ __  | | _   ___  __ _ | |_  _   ___   _ __
+  | || ___ \|  __/ | |\/| |  | ___ \| | | |/ __|| || '_ \  / _ \/ __|/ __|  |  _  || '_ \ | '_ \ | || | / __|/ _` || __|| | / _ \ | '_ \
+  | || |_/ /| |    | |  | |  | |_/ /| |_| |\__ \| || | | ||  __/\__ \\__ \  | | | || |_) || |_) || || || (__| (_| || |_ | || (_) || | | |
+  | |\____/ \_|    \_|  |_/  \____/  \__,_||___/|_||_| |_| \___||___/|___/  \_| |_/| .__/ | .__/ |_||_| \___|\__,_| \__||_| \___/ |_| |_|
+ _/ |                                                                              | |    | |
+|__/                                                                               |_|    |_|
+                                                    business-application-service :: v.1.0-SNAPSHOT
+
+
+2020-06-11 16:24:31.658  INFO 38700 --- [           main] com.company.service.Application          : Starting Application v1.0-SNAPSHOT on XPS with PID 38700 (C:\Software\business-application\business-application-service\target\business-application-service-1.0-SNAPSHOT.jar started by yokes in C:\Software\business-application\business-application-service)
+2020-06-11 16:24:31.662  INFO 38700 --- [           main] com.company.service.Application          : The following profiles are active: dev
+2020-06-11 16:24:33.710  INFO 38700 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2020-06-11 16:24:33.719  INFO 38700 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-06-11 16:24:33.720  INFO 38700 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-06-11 16:24:33.771  INFO 38700 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-06-11 16:24:33.771  INFO 38700 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2063 ms
+2020-06-11 16:24:34.059  WARN 38700 --- [           main] com.arjuna.ats.common                    : ARJUNA048002: Could not find configuration file, URL was: null
+2020-06-11 16:24:34.097  INFO 38700 --- [           main] o.d.p.api.TransactionManagerFactory      : Using org.kie.spring.persistence.KieSpringTransactionManagerFactory@62c5bbdc
+2020-06-11 16:24:34.136  INFO 38700 --- [           main] com.arjuna.ats.jbossatx                  : ARJUNA032010: JBossTS Recovery Service (tag: unknown) - JBoss Inc.
+2020-06-11 16:24:34.179  INFO 38700 --- [           main] com.arjuna.ats.jbossatx                  : ARJUNA032013: Starting transaction recovery manager
+2020-06-11 16:24:34.363  INFO 38700 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: org.jbpm.domain]
+2020-06-11 16:24:34.530  INFO 38700 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.9.Final}
+2020-06-11 16:24:34.810  INFO 38700 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-11 16:24:35.831  INFO 38700 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-06-11 16:24:36.641  INFO 38700 --- [           main] org.hibernate.orm.beans                  : HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2020-06-11 16:24:37.860  INFO 38700 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2020-06-11 16:24:38.459  WARN 38700 --- [           main] o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-06-11 16:24:38.459  WARN 38700 --- [           main] o.h.dialect.function.TemplateRenderer    : HHH000174: Function template anticipated 4 arguments, but 1 arguments encountered
+2020-06-11 16:24:38.533  INFO 38700 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'org.jbpm.domain'
+2020-06-11 16:24:38.619  WARN 38700 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-06-11 16:24:38.828  INFO 38700 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5cc1bf20, org.springframework.security.web.context.SecurityContextPersistenceFilter@591f6f83, org.springframework.security.web.header.HeaderWriterFilter@14b8a751, org.springframework.web.filter.CorsFilter@2e3f324e, org.springframework.security.web.authentication.logout.LogoutFilter@57b9389f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@ddffa6c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55421b8d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4bf4680c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46cf8c07, org.springframework.security.web.session.SessionManagementFilter@150d6eaf, org.springframework.security.web.access.ExceptionTranslationFilter@759a678a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1192c925]
+2020-06-11 16:24:38.942  INFO 38700 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-11 16:24:39.024  INFO 38700 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2020-06-11 16:24:39.865  INFO 38700 --- [           main] com.arjuna.ats.arjuna                    : ARJUNA012170: TransactionStatusManager started on port 63212 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+2020-06-11 16:24:40.337  INFO 38700 --- [           main] o.k.s.s.a.KieServerAutoConfiguration     : KieServer (id business-application-service-dev (name business-application-service Dev)) started initialization process
+2020-06-11 16:24:40.550  INFO 38700 --- [           main] o.k.server.services.impl.KieServerImpl   : Starting server in 'DEVELOPMENT' mode.
+2020-06-11 16:24:40.555  INFO 38700 --- [           main] o.k.server.services.impl.KieServerImpl   : Selected startup strategy ControllerBasedStartupStrategy - deploys kie containers given by controller ignoring locally defined
+2020-06-11 16:24:40.556  INFO 38700 --- [           main] o.k.server.services.impl.KieServerImpl   : Configured 'KieServerStateFileRepository' server state repository
+2020-06-11 16:24:40.587  INFO 38700 --- [           main] o.k.s.s.impl.storage.KieServerState      : Added default controller located at http://localhost:8080/business-central/rest/controller
+2020-06-11 16:24:40.590  INFO 38700 --- [           main] o.k.server.services.impl.KieServerImpl   : Server Default Extension has been successfully registered as server extension
+2020-06-11 16:24:40.591  INFO 38700 --- [           main] o.k.server.services.impl.KieServerImpl   : Drools KIE Server extension has been successfully registered as server extension
+2020-06-11 16:24:40.618  INFO 38700 --- [           main] o.k.s.api.marshalling.MarshallerFactory  : Marshaller extensions init
+2020-06-11 16:24:40.637  INFO 38700 --- [           main] o.k.server.services.impl.KieServerImpl   : jBPM KIE Server extension has been successfully registered as server extension
+2020-06-11 16:24:40.639  INFO 38700 --- [           main] o.k.server.services.impl.KieServerImpl   : Case-Mgmt KIE Server extension has been successfully registered as server extension
+2020-06-11 16:24:40.762  INFO 38700 --- [           main] o.k.s.s.j.u.f.r.BootstrapFormRenderer    : Boostrap Form renderer templates loaded successfully.
+2020-06-11 16:24:40.765  INFO 38700 --- [           main] o.k.s.s.j.u.f.r.PatternflyFormRenderer   : patternfly Form renderer templates loaded successfully.
+2020-06-11 16:24:40.768  INFO 38700 --- [           main] o.k.s.s.j.u.f.r.PatternflyFormRenderer   : workbench Form renderer templates loaded successfully.
+2020-06-11 16:24:40.769  INFO 38700 --- [           main] o.k.server.services.impl.KieServerImpl   : jBPM-UI KIE Server extension has been successfully registered as server extension
+2020-06-11 16:24:40.770  INFO 38700 --- [           main] o.k.server.services.impl.KieServerImpl   : DMN KIE Server extension has been successfully registered as server extension
+2020-06-11 16:24:40.774  INFO 38700 --- [           main] o.k.s.s.impl.policy.PolicyManager        : Registered KeepLatestContainerOnlyPolicy{interval=0 ms} policy under name KeepLatestOnly
+2020-06-11 16:24:40.775  INFO 38700 --- [           main] o.k.s.s.impl.policy.PolicyManager        : Policy manager started successfully, activated policies are []
+2020-06-11 16:24:40.784  INFO 38700 --- [           main] s.c.w.c.WebSocketKieServerControllerImpl : Kie Server points to non Web Socket controller 'http://localhost:8080/business-central/rest/controller', using default REST mechanism
+2020-06-11 16:24:40.786  WARN 38700 --- [           main] o.kie.server.common.KeyStoreHelperUtil   : Unable to load key store. Using password from configuration
+2020-06-11 16:24:41.044  INFO 38700 --- [           main] o.k.s.services.impl.ContainerManager     : About to install containers '[KieContainerResource [containerId=evaluation_1.0.0-SNAPSHOT, releaseId=evaluation:evaluation:1.0.0-SNAPSHOT, resolvedReleaseId=null, status=STARTED]]' on kie server 'KieServer{id='business-application-service-dev'name='business-application-service Dev'version='7.33.0.Final-redhat-00002'location='http://localhost:8090/rest/server'}'
+2020-06-11 16:24:41.089  WARN 38700 --- [           main] o.a.m.i.embedder.MavenSettings           : Environment variable M2_HOME is not set
+2020-06-11 16:24:42.678  WARN 38700 --- [           main] o.e.a.i.i.DefaultUpdatePolicyAnalyzer    : Unknown repository update policy '', assuming 'never'
+2020-06-11 16:24:42.765  WARN 38700 --- [           main] o.e.a.i.i.DefaultUpdatePolicyAnalyzer    : Unknown repository update policy '', assuming 'never'
+2020-06-11 16:24:42.766  WARN 38700 --- [           main] o.e.a.i.i.DefaultUpdatePolicyAnalyzer    : Unknown repository update policy '', assuming 'never'
+2020-06-11 16:24:42.767  WARN 38700 --- [           main] o.e.a.i.i.DefaultUpdatePolicyAnalyzer    : Unknown repository update policy '', assuming 'never'
+2020-06-11 16:24:43.467  WARN 38700 --- [           main] o.e.a.i.i.DefaultUpdatePolicyAnalyzer    : Unknown repository update policy '', assuming 'never'
+2020-06-11 16:24:43.563  WARN 38700 --- [           main] o.e.a.i.i.DefaultUpdatePolicyAnalyzer    : Unknown repository update policy '', assuming 'never'
+2020-06-11 16:24:44.895  INFO 38700 --- [           main] o.j.r.m.impl.AbstractRuntimeManager      : SingletonRuntimeManager is created for evaluation_1.0.0-SNAPSHOT
+2020-06-11 16:24:45.327  INFO 38700 --- [           main] o.k.server.services.impl.KieServerImpl   : Container evaluation_1.0.0-SNAPSHOT (for release id evaluation:evaluation:1.0.0-SNAPSHOT) successfully started
+2020-06-11 16:24:45.345  INFO 38700 --- [           main] o.k.server.services.impl.KieServerImpl   : KieServer business-application-service-dev is ready to receive requests
+2020-06-11 16:24:45.377  INFO 38700 --- [           main] o.k.s.s.a.KieServerAutoConfiguration     : KieServer (id business-application-service-dev) started successfully
+2020-06-11 16:24:45.639  INFO 38700 --- [           main] org.apache.cxf.endpoint.ServerImpl       : Setting the server's publish address to be /
+2020-06-11 16:24:45.790  INFO 38700 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2020-06-11 16:24:45.794  INFO 38700 --- [           main] com.company.service.Application          : Started Application in 14.676 seconds (JVM running for 15.438)
+2020-06-11 16:24:46.438  WARN 38700 --- [0.0-8090-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [316] milliseconds.
+2020-06-11 16:24:46.446  INFO 38700 --- [0.0-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-06-11 16:24:46.446  INFO 38700 --- [0.0-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-06-11 16:24:46.451  INFO 38700 --- [0.0-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-06-11 16:24:47.063  INFO 38700 --- [0.0-8090-exec-3] o.k.s.a.m.xstream.XStreamMarshaller      : XStreamMarshallerExtension implementation found: org.kie.server.services.jbpm.xstream.HibernateXStreamMarshallerExtension
+2020-06-11 16:24:47.228  INFO 38700 --- [0.0-8090-exec-3] o.j.k.s.i.q.p.PersistDataSetListener     : Data set jbpmProcessInstances saved in db storage
+2020-06-11 16:24:47.254  INFO 38700 --- [0.0-8090-exec-3] o.j.k.s.impl.query.QueryServiceImpl      : Registered jbpmProcessInstances query successfully
+2020-06-11 16:24:47.280  INFO 38700 --- [0.0-8090-exec-4] o.j.k.s.i.q.p.PersistDataSetListener     : Data set jbpmExecutionErrorList saved in db storage
+2020-06-11 16:24:47.283  INFO 38700 --- [0.0-8090-exec-4] o.j.k.s.impl.query.QueryServiceImpl      : Registered jbpmExecutionErrorList query successfully
+2020-06-11 16:24:47.288  INFO 38700 --- [0.0-8090-exec-5] o.j.k.s.i.q.p.PersistDataSetListener     : Data set jbpmProcessInstancesWithVariables saved in db storage
+2020-06-11 16:24:47.293  INFO 38700 --- [0.0-8090-exec-5] o.j.k.s.impl.query.QueryServiceImpl      : Registered jbpmProcessInstancesWithVariables query successfully
+2020-06-11 16:24:47.298  INFO 38700 --- [0.0-8090-exec-9] o.j.k.s.i.q.p.PersistDataSetListener     : Data set jbpmProcessInstanceLogs saved in db storage
+2020-06-11 16:24:47.299  INFO 38700 --- [0.0-8090-exec-9] o.j.k.s.impl.query.QueryServiceImpl      : Registered jbpmProcessInstanceLogs query successfully
+2020-06-11 16:24:47.305  INFO 38700 --- [0.0-8090-exec-7] o.j.k.s.i.q.p.PersistDataSetListener     : Data set tasksMonitoring saved in db storage
+2020-06-11 16:24:47.311  INFO 38700 --- [0.0-8090-exec-7] o.j.k.s.impl.query.QueryServiceImpl      : Registered tasksMonitoring query successfully
+2020-06-11 16:24:47.317  INFO 38700 --- [0.0-8090-exec-8] o.j.k.s.i.q.p.PersistDataSetListener     : Data set jbpmHumanTasks saved in db storage
+2020-06-11 16:24:47.319  INFO 38700 --- [0.0-8090-exec-8] o.j.k.s.impl.query.QueryServiceImpl      : Registered jbpmHumanTasks query successfully
+2020-06-11 16:24:47.325  INFO 38700 --- [0.0-8090-exec-6] o.j.k.s.i.q.p.PersistDataSetListener     : Data set jbpmHumanTasksWithVariables saved in db storage
+2020-06-11 16:24:47.327  INFO 38700 --- [0.0-8090-exec-6] o.j.k.s.impl.query.QueryServiceImpl      : Registered jbpmHumanTasksWithVariables query successfully
+2020-06-11 16:24:47.332  INFO 38700 --- [.0-8090-exec-10] o.j.k.s.i.q.p.PersistDataSetListener     : Data set jbpmHumanTasksWithAdmin saved in db storage
+2020-06-11 16:24:47.337  INFO 38700 --- [.0-8090-exec-10] o.j.k.s.impl.query.QueryServiceImpl      : Registered jbpmHumanTasksWithAdmin query successfully
+2020-06-11 16:24:47.343  INFO 38700 --- [0.0-8090-exec-2] o.j.k.s.i.q.p.PersistDataSetListener     : Data set jbpmRequestList saved in db storage
+2020-06-11 16:24:47.346  INFO 38700 --- [0.0-8090-exec-2] o.j.k.s.impl.query.QueryServiceImpl      : Registered jbpmRequestList query successfully
+2020-06-11 16:24:47.352  INFO 38700 --- [0.0-8090-exec-1] o.j.k.s.i.q.p.PersistDataSetListener     : Data set processesMonitoring saved in db storage
+2020-06-11 16:24:47.354  INFO 38700 --- [0.0-8090-exec-1] o.j.k.s.impl.query.QueryServiceImpl      : Registered processesMonitoring query successfully
+2020-06-11 16:24:47.359  INFO 38700 --- [0.0-8090-exec-3] o.j.k.s.i.q.p.PersistDataSetListener     : Data set jbpmHumanTasksWithUser saved in db storage
+2020-06-11 16:24:47.362  INFO 38700 --- [0.0-8090-exec-3] o.j.k.s.impl.query.QueryServiceImpl      : Registered jbpmHumanTasksWithUser query successfully
+2020-06-11 16:26:14.357  WARN 38700 --- [0.0-8090-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotAcceptableException: Could not find acceptable representation]
+2020-06-11 16:46:48.296  INFO 38700 --- [extShutdownHook] o.k.s.s.impl.policy.PolicyManager        : Policy manager stopped successfully
+2020-06-11 16:46:48.296  INFO 38700 --- [extShutdownHook] s.c.w.c.WebSocketKieServerControllerImpl : Kie Server points to non Web Socket controller 'http://localhost:8080/business-central/rest/controller', using default REST mechanism
+2020-06-11 16:46:48.348  INFO 38700 --- [extShutdownHook] o.k.server.services.impl.KieServerImpl   : Server Default Extension has been successfully unregistered as server extension
+2020-06-11 16:46:48.348  INFO 38700 --- [extShutdownHook] o.k.server.services.impl.KieServerImpl   : Drools KIE Server extension has been successfully unregistered as server extension
+2020-06-11 16:46:48.355  INFO 38700 --- [extShutdownHook] o.k.server.services.impl.KieServerImpl   : jBPM KIE Server extension has been successfully unregistered as server extension
+2020-06-11 16:46:48.355  INFO 38700 --- [extShutdownHook] o.k.server.services.impl.KieServerImpl   : Case-Mgmt KIE Server extension has been successfully unregistered as server extension
+2020-06-11 16:46:48.355  INFO 38700 --- [extShutdownHook] o.k.server.services.impl.KieServerImpl   : jBPM-UI KIE Server extension has been successfully unregistered as server extension
+2020-06-11 16:46:48.355  INFO 38700 --- [extShutdownHook] o.k.server.services.impl.KieServerImpl   : DMN KIE Server extension has been successfully unregistered as server extension
+2020-06-11 16:46:48.356  INFO 38700 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-06-11 16:46:48.356  INFO 38700 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'org.jbpm.domain'
+2020-06-11 16:46:48.356  INFO 38700 --- [extShutdownHook] com.arjuna.ats.jbossatx                  : ARJUNA032014: Stopping transaction recovery manager
+Terminate batch job (Y/N)? 
